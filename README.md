@@ -1,6 +1,6 @@
 # Simple-Selenium
 
-[![BUILT BY QA Engineers](https://img.shields.io/badge/BUILT%20BY-DEVOPS%20ENGINEERS-lightgrey.svg)](https://github.com/yourusername/Simple-Selenium)
+[![BUILT BY QA Engineers](https://img.shields.io/badge/BUILT%20BY-QA%20ENGINEERS-lightgrey.svg)](https://github.com/yourusername/Simple-Selenium)
 [![BUILT WITH ❤](https://img.shields.io/badge/BUILT%20WITH-%E2%9D%A4-ff69b4.svg)](https://github.com/yourusername/Simple-Selenium)
 [![BUILT WITH Selenium](https://img.shields.io/badge/BUILT%20WITH-SELENIUM-purple.svg)](https://github.com/yourusername/Simple-Selenium)
 [![MADE WITH JavaScript](https://img.shields.io/badge/MADE%20WITH-JAVASCRIPT-yellow.svg)](https://github.com/yourusername/Simple-Selenium)
@@ -71,3 +71,36 @@ To run the tests, use the following command:
 ```bash
 npm test
 ```
+
+## Project Structure
+
+```
+SELENIUM-JAVASCRIPT-AUTOMA...
+├── mochawesome-report/
+├── node_modules/
+├── tests/
+│   └── loginTest.js
+├── .env
+├── package-lock.json
+└── package.json
+```
+
+- `mochawesome-report/`: Contains generated test reports
+- `node_modules/`: Node.js dependencies
+- `tests/`: Test files directory
+  - `loginTest.js`: Contains the invalid login test scenario
+- `.env`: Environment variables (e.g., URLs, credentials)
+- `package-lock.json`: Locks the versions of installed packages
+- `package.json`: Project configuration and dependencies
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+
+## Acknowledgements
+
+- [Selenium](https://www.selenium.dev/)
+- [Mocha](https://mochajs.org/)
+- [Mochawesome](https://github.com/adamgruber/mochawesome)
+- [WebDriverManager](https://github.com/bonigarcia/webdrivermanager)

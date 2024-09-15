@@ -54,14 +54,5 @@ Install Mocha test framework
 Set up Mochawesome for enhanced reporting
 ```npm install mochawesome mochawesome-report-generator --save-dev```
 
-
-## Project Structure
-After installation, your project structure should look like this:
-text
-selenium-javascript-automation/
-├── node_modules/
-├── tests/
-│   └── example.test.js
-├── package.json
-├── package-lock.json
-└── README.md
+## Run the tests
+```npm test```

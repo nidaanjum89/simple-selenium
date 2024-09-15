@@ -40,23 +40,23 @@ mkdir selenium-javascript-automation
 cd selenium-javascript-automation
 
 Initialize a new Node.js project:
+```bash
+npm init -y
 
-``` npm init -y ```
-
-Install Selenium WebDriver:
-bash
+Install Selenium WebDriver
+```bash
 npm install selenium-webdriver
 
 Install WebDriverManager for automatic browser driver management:
-bash
+```bash
 npm install webdriver-manager
 
-Install Mocha test framework:
-bash
+Install Mocha test framework
+```bash
 npm install mocha --save-dev
 
-Set up Mochawesome for enhanced reporting:
-bash
+Set up Mochawesome for enhanced reporting
+```bash
 npm install mochawesome mochawesome-report-generator --save-dev
 
 

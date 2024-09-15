@@ -40,8 +40,8 @@ mkdir selenium-javascript-automation
 cd selenium-javascript-automation
 
 Initialize a new Node.js project:
-bash
-npm init -y
+
+``` npm init -y ```
 
 Install Selenium WebDriver:
 bash
